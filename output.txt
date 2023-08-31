@@ -1,0 +1,48 @@
+PS C:\Users\TEJU\OneDrive\Desktop\DC CIA\Chandy-Lamport-Algorithm-Implementation-1> go run main.go
+Enter the number of nodes: 3
+Node 0 initial amount: $4629
+Node 1 initial amount: $5070
+Node 2 initial amount: $3829
+Total amount in the entire system: $13528
+Node 0 sent $73 to Node 2
+Node 2 sent $90 to Node 1
+Node 1 sent $36 to Node 0
+Node 0 sent $30 to Node 1
+Node 2 sent $62 to Node 1
+Node 1 sent $32 to Node 2
+Node 0 sent $35 to Node 2
+Node 2 sent $5 to Node 0
+Node 1 sent $2 to Node 2
+Node 0 sent $5 to Node 2
+Node 0 sent $90 to Node 1
+Node 1 sent $60 to Node 0
+Node 2 sent $83 to Node 0
+Node 2 sent $86 to Node 0
+Node 1 sent $86 to Node 2
+Node 0 sent $26 to Node 1
+Node 0 sent $36 to Node 1
+Node 2 sent $5 to Node 1
+Node 0 sent $96 to Node 1
+Node 2 sent $19 to Node 0
+Node 1 sent $58 to Node 2
+Node 1 sent $3 to Node 0
+Node 2 sent $60 to Node 1
+Node 0 sent $27 to Node 1
+Node 1 sent $30 to Node 2
+Node 1 sent $9 to Node 2
+Node 0 sent $80 to Node 2
+
+Snapshots and Consistency Check:
+Snapshot for Node 0: [0 0 0]
+Is Snapshot Consistent for Node 0: true
+Total amount in snapshot for Node 0: $0
+Snapshot total does not match initial total for Node 0
+Snapshot for Node 1: [0 0 0]
+Is Snapshot Consistent for Node 1: true
+Total amount in snapshot for Node 1: $0
+Snapshot total does not match initial total for Node 1
+Snapshot for Node 2: [0 0 0]
+Is Snapshot Consistent for Node 2: true
+Total amount in snapshot for Node 2: $0
+Snapshot total does not match initial total for Node 2
+PS C:\Users\TEJU\OneDrive\Desktop\DC CIA\Chandy-Lamport-Algorithm-Implementation-1>
